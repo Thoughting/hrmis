@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc" xmlns:jee="http://www.springframework.org/schema/jee"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:cache="http://www.springframework.org/schema/cache"
+	xmlns:task="http://www.springframework.org/schema/task" xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd 
+		http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd
+		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-4.0.xsd
+		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-4.0.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+		http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache-4.0.xsd"
+	default-lazy-init="false">
+
+	<description>Spring公共配置 </description>
+
+	<!-- common.properties 配置文件加载 -->
+	<bean
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="location" value="classpath:/global.properties" />
+		<property name="ignoreUnresolvablePlaceholders" value="true" />
+	</bean>
+
+	<!-- 使用annotation 自动注册bean,并检查@Required,@Autowired的属性已被注入 -->
+	<context:component-scan base-package="com.eastcom">
+		<context:exclude-filter type="annotation"
+			expression="org.springframework.stereotype.Controller" />
+		<context:exclude-filter type="annotation"
+			expression="org.springframework.web.bind.annotation.ControllerAdvice" />
+	</context:component-scan>
+	
+	<!-- aop aspectj -->
+	<aop:aspectj-autoproxy />
+
+	<!-- 开启这个配置，spring才能识别@Scheduled注解 -->
+	<task:annotation-driven />
+	
+	<!-- 配置 JSR303 Bean Validator 定义 -->
+	<bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean" />
+		
+	<!-- 缓存配置 -->
+	<bean id="cacheManager" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean">
+		<property name="configLocation" value="classpath:${ehcache.configFile}" />
+	</bean>
+
+	<!-- 配置数据源 -->
+	<beans>
+		<!-- 定义受环境影响易变的变量 -->
+		<bean id="defaultConfigurer"
+			class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+			<property name="location" value="classpath:/default/default.properties" />
+			<property name="ignoreUnresolvablePlaceholders" value="true" />
+		</bean>
+		<!-- 数据源配置, 使用 druid 数据库连接池 -->
+		<bean id="defaultDataSource" class="com.alibaba.druid.pool.DruidDataSource"
+			init-method="init" destroy-method="close">
+			<property name="url" value="${jdbc.url.default}" />
+			<property name="username" value="${jdbc.username.default}" />
+			<property name="password" value="${jdbc.password.default}" />
+			<property name="maxActive" value="20" />
+			<property name="initialSize" value="10" />
+			<property name="maxWait" value="30000" />
+			<property name="minIdle" value="1" />
+			<property name="timeBetweenEvictionRunsMillis" value="60000" />
+			<property name="minEvictableIdleTimeMillis" value="300000" />
+			<property name="testWhileIdle" value="false" />
+			<property name="testOnBorrow" value="false" />
+			<property name="testOnReturn" value="false" />
+			<property name="filters" value="stat" />
+		</bean>
+		<!-- 定义Hibernate Session工厂 -->
+		<bean id="defaultSessionFactory"
+			class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+			<property name="dataSource" ref="defaultDataSource" />
+			<property name="packagesToScan" value="com.eastcom.baseframe.web.modules.**.entity" />
+			<property name="hibernateProperties">
+				<props>
+					<prop key="hibernate.dialect">${hibernate.dialect.default}</prop>
+					<prop key="hibernate.show_sql">${hibernate.show_sql}</prop>
+					<prop key="hibernate.cache.use_second_level_cache">true</prop>
+					<prop key="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory
+					</prop>
+					<prop key="hibernate.jdbc.fetch_size">50</prop>
+					<prop key="hibernate.jdbc.batch_size">25</prop>
+				</props>
+			</property>
+			<property name="namingStrategy">
+				<bean class="org.hibernate.cfg.ImprovedNamingStrategy" />
+			</property>
+		</bean>
+		<!-- 定义事务 -->
+		<bean id="defaultTransactionManager"
+			class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+			<property name="sessionFactory" ref="defaultSessionFactory" />
+		</bean>
+		<tx:annotation-driven transaction-manager="defaultTransactionManager" />
+	</beans>
+</beans>

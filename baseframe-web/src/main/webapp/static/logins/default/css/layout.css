@@ -1,0 +1,74 @@
+/*--- 框架样式---*/
+#main {padding:0;margin:0 auto}
+#main .con_left{width:226px;padding:1px 0 0 0}
+#main .con_right{padding:1px 0 0 0;margin-left:225px;}
+
+/*--- 标准BOX样式---*/
+.con_itembox{padding:5px}
+.con_itembox .con_item_title{}
+.con_itembox .con_item_title .bg1{height:28px;width:4px;background:url(../images/icon.png) no-repeat left 0}
+.con_itembox .con_item_title .bg2{height:28px;width:4px;background:url(../images/icon.png) no-repeat right 0}
+.con_itembox .con_item_title .bg3{height:28px;width:4px;background:url(../images/icon.png) no-repeat left -439px}
+.con_itembox .con_item_title .bg4{height:28px;width:4px;background:url(../images/icon.png) no-repeat right -439px}
+.con_itembox .con_item_title .title{height:28px;margin:0 4px;text-align:left;background:url(../images/icon.png) repeat-x 0 -34px}
+.con_itembox .con_item_title .title h5{line-height:28px; font-family:Arial}
+.con_itembox .con_item_title .title span{padding-top:6px;float:right}
+.con_itembox .con_item_title .title span a{margin:0 2px; cursor:pointer;color:#666}
+.con_itembox .con_item_title .title .sos_title{float:right}
+.con_itembox .con_item_title .title1{height:28px;margin:0 4px;background:url(../images/icon.png) repeat-x 0 -472px}
+.con_itembox .con_item_title .title1 h5{line-height:29px; font-family:Arial;color:#fff}
+.con_itembox .con_item_title .title1 span{float:right}
+.con_itembox .con_item_title .title2{height:28px;line-height:28px;background:url(../images/icon.png) repeat-x 0 -68px}
+.con_itembox .con_item_title h5{ font-size:12px;padding-left:3px;color:#333;}
+.con_itembox .con_item_title .title2 h5{ font-size:12px;padding-left:5px;color:#fff;}
+.con_itembox .con_item_title .title2 span{float:right}
+.con_itembox .con_item_title .title2 span a{ cursor:pointer}
+.con_itembox .con_item_title .title3{height:25px;padding-top:5px;background:url(../images/icon.png) repeat-x 0 -100px; border-right:1px solid #c0c2d2;border-left:1px solid #c0c2d2}
+
+
+.con_itembox .con_item_list{padding:0;border:1px solid #c0c2d1;overflow:hidden; background:#fff}
+.con_itembox .con_item_list2{padding:30px;border:1px solid #c0c2d1;overflow:hidden; background:#fff}
+.con_itembox .con_item_btn{height:45px;padding-top:9px; text-align:center;background:url(../images/icon.png) repeat-x 0 -136px;border:1px solid #c0c2d1;border-top:none}
+.con_itembox .con_item_btn a{margin:0 20px;}
+.select_btn a{margin:10px 0;}
+.select_btn a:hover{ cursor:pointer; text-decoration:none;}
+
+.con_search{padding:5px;}
+.con_search .search_box{border:1px solid #c5d8e2;padding:12px 0 12px 120px;background:#f7fcff url(../images/search.png) no-repeat 25px 22px}
+
+body.uibg{background:url(../images/uibg.png) repeat-x 0 76px}
+.add_ui{min-height:640px;background:url(../images/uibg2.png) no-repeat top left}
+
+.use_menu{float:left;width:100%;padding-top:100px;text-align:center}
+.use_menu a{ display:inline-block;text-align:center;padding:10px 20px;font-size:16px;color:#000; font-weight:bold; font-family:Microsoft Yahei}
+.use_menu a span{display:inline-block;width:100px;height:100px;}
+.use_menu a:hover{color:#666;text-decoration:none; cursor:pointer}
+.use_menu .use1{background:url(../images/ui_ico.png) no-repeat 0 0}
+.use_menu .use2{background:url(../images/ui_ico.png) no-repeat -100px 0}
+.use_menu .use3{background:url(../images/ui_ico.png) no-repeat -200px 0}
+.use_menu .use4{background:url(../images/ui_ico.png) no-repeat -300px 0}
+.use_menu .use5{background:url(../images/ui_ico.png) no-repeat -400px 0}
+.use_menu .use6{background:url(../images/ui_ico.png) no-repeat 0 -100px}
+.use_menu .use7{background:url(../images/ui_ico.png) no-repeat -100px -100px}
+.use_menu .use8{background:url(../images/ui_ico.png) no-repeat -200px -100px}
+
+/*---弹出样式---*/
+	#bank_boxlist{}
+	#bank_boxlist .bank_title{height:31px;background:url(../images/bank.png) repeat-x 0 -50px;}
+	#bank_boxlist .bank_title .bg1{height:31px;width:5px;background:#71767a url(../images/bank.png) no-repeat left 0;}
+	#bank_boxlist .bank_title .bg2{height:31px;width:5px;background:#71767a url(../images/bank.png) no-repeat right 0;}
+	#bank_boxlist .bank_title h5{height:31px;line-height:35px;font-size:14px;color:#fff;padding-left:4px;background:url(../images/bank_icon.png) no-repeat 2px 10px;}
+			
+	#bank_boxlist .bottom{height:3px;font-size:1px;background:url(../images/bank.png) repeat-x 0 -96px;}
+	#bank_boxlist .bottom .bg1{height:3px;width:5px;font-size:1px;background:#7f7f7f url(../images/bank.png) no-repeat left -46px;}
+	#bank_boxlist .bottom .bg2{height:3px;width:5px;font-size:1px;background:#7f7f7f url(../images/bank.png) no-repeat right -46px;}
+			
+	#bank_boxlist .exc_text{height:22px;padding-top:9px;text-align:right;}
+	#bank_boxlist .exc_text .close{display:inline-block;margin-left:30px;height:20px;width:20px;background:url(../images/bank.png) no-repeat -172px -8px;*display:inline; zoom:1; cursor:pointer}
+	#bank_boxlist .boxbg{border-left:1px solid #a7a9ac;border-right:1px solid #a7a9ac;padding:6px 0;background:#f7fcff}
+
+	#bank_boxlist .list{padding:15px;background:#fff; position:relative}
+
+
+
+		

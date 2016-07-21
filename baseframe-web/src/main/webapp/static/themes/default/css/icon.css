@@ -1,0 +1,20 @@
+.icon-database{
+	background:url('../images/database.png') no-repeat center center;
+}
+.icon-table{
+	background:url('../images/table.png') no-repeat center center;
+}
+.icon-view{
+	background:url('../images/view.png') no-repeat center center;
+}
+.icon-form-more{
+	display: inline-block;
+	background: url(../images/dropdown.png) no-repeat 0px -38px;
+	padding-left: 20px;
+}
+
+.icon-form-retract{
+	display: inline-block;
+	background: url(../images/dropdown.png) no-repeat 0px 8px;
+	padding-left: 20px;
+}

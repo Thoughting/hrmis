@@ -1,0 +1,61 @@
+input.inputbg{border:1px solid #b9b9b9;background:url(../images/inputbg.png) no-repeat left top}
+input.td1{height:18px; width:70%;}
+input.td2{height:17px; width:100%;}
+
+
+.textareabg{border:1px solid #b9b9b9;width:98%;height:120px;background:url(../images/inputbg.png) no-repeat left top}
+
+/*--表格样式--*/
+.table_data{
+	display:table;
+	border:none;
+	margin:0 auto;
+	width:100%;
+	border-left:1px #a2d1e1 solid;
+	border-top:1px #a2d1e1 solid;
+	border-collapse:collapse
+}
+.table_data th,.table_data td{
+	padding:5px 2px 6px;
+	border-right:1px #a2d1e1 solid;
+	border-bottom:1px #a2d1e1 solid;
+	line-height:16px;
+	empty-cells:show;
+	background:#f6f7f8
+}
+.table_data .td_th{
+	text-align:left;
+	color:#fff;
+	background:url(../images/icon.png) repeat-x 0 -68px;
+}
+.table_data th{
+	color:#333;
+	background:#d2e9f1;
+	white-space:nowrap;
+	text-align:center;
+}
+.table_data .tab td{
+	background:#fff
+}
+.table_data .hover td{
+	background:#fff
+}
+.table_data a{
+	color:#1859B3;
+}
+.table_data a.btn,.table_data a.btn:visited{color:#fff}
+.table_affairs th,.table_affairs td{
+	text-align:center;
+}
+
+.table_data2 th,.table_data2 td{
+	 text-align:left;
+	 padding-left:10px;
+}
+.table_data3{
+	 margin:10px 0 10px 40px;
+	 color:#666
+}
+.table_data3 td{
+	 height:25px;
+}

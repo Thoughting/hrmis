@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LT-HRMIS.iml" filepath="$PROJECT_DIR$/LT-HRMIS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baseframe-common/baseframe-common.iml" filepath="$PROJECT_DIR$/baseframe-common/baseframe-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baseframe-web/baseframe-web.iml" filepath="$PROJECT_DIR$/baseframe-web/baseframe-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrmis-web/hrmis-web.iml" filepath="$PROJECT_DIR$/hrmis-web/hrmis-web.iml" />
+    </modules>
+  </component>
+</project>

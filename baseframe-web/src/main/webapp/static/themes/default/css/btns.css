@@ -1,0 +1,132 @@
+
+.ico_search{display:inline-block;width:23px;height:21px;vertical-align:middle;background:url(../images/ico.png) no-repeat 0px -76px;}
+.ico_search:hover{background:url(../images/ico.png) no-repeat -31px -76px;}
+.ico_so{display:inline-block;width:18px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -5px -44px;}
+
+.ico_use1{display:inline-block;width:18px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -7px -10px;}
+.ico_use2{display:inline-block;width:18px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -39px -10px;}
+.ico_use3{display:inline-block;width:18px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -70px -10px;}
+.ico_use4{display:inline-block;width:18px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -102px -9px;cursor:pointer}
+
+.home_text{display:inline-block;width:70px;padding-top:0px; text-align:center;vertical-align:middle; font-weight:bold}
+.home_text2{display:inline-block;width:70px;padding-top:4px; text-align:center;vertical-align:middle; font-weight:bold}
+.home_ico{display:inline-block;width:56px;height:38px;vertical-align:middle;background:url(../images/home_icon.png) no-repeat -5px -8px;}
+.home_ico2{display:inline-block;width:56px;height:38px;vertical-align:middle;background:url(../images/home_icon.png) no-repeat -76px -4px;}
+.home_ico3{display:inline-block;width:56px;height:38px;vertical-align:middle;background:url(../images/home_icon.png) no-repeat -138px -5px;}
+.home_ico4{display:inline-block;width:56px;height:38px;vertical-align:middle;background:url(../images/home_icon.png) no-repeat -210px -5px;}
+.home_ico5{display:inline-block;width:56px;height:38px;vertical-align:middle;background:url(../images/home_icon.png) no-repeat -266px -4px;}
+.home_ico6{display:inline-block;width:56px;height:38px;vertical-align:middle;background:url(../images/home_icon.png) no-repeat -328px -2px;}
+
+.sos_red{display:inline-block;width:90%;height:22px;line-height:22px;font-size:14px; color:#fff;vertical-align:middle;background:#f00}
+.sos_orange{display:inline-block;width:90%;height:22px;line-height:22px;font-size:14px; color:#000;vertical-align:middle;background:#ffa800}
+.sos_yellow{display:inline-block;width:90%;height:22px;line-height:22px;font-size:14px; color:#000;vertical-align:middle;background:#fdf641}
+.sos_green{display:inline-block;width:90%;height:22px;line-height:22px;font-size:14px; color:#000;vertical-align:middle;background:#54cf47}
+.sos_blue{display:inline-block;width:90%;height:22px;line-height:22px;font-size:14px; color:#000;vertical-align:middle;background:#2559f0}
+
+.ico_red{display:inline-block;width:14px;height:15px;vertical-align:middle;background:url(../images/ico.png) no-repeat -73px -80px;}
+.ico_orange{display:inline-block;width:14px;height:15px;vertical-align:middle;background:url(../images/ico.png) no-repeat -108px -80px;}
+.ico_yellow{display:inline-block;width:14px;height:15px;vertical-align:middle;background:url(../images/ico.png) no-repeat -141px -80px;}
+.ico_blue{display:inline-block;width:14px;height:15px;vertical-align:middle;background:url(../images/ico.png) no-repeat -172px -80px;}
+
+/*--- 右键菜单样式---*/
+.ico_s1{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -202px -192px;}
+.ico_s2{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -6px -220px;}
+.ico_s3{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -34px -220px;}
+.ico_s4{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -62px -220px;}
+.ico_s5{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -90px -220px;}
+.ico_s6{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -118px -220px;}
+.ico_s7{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -146px -220px;}
+
+/*--- 表格图标样式公用---*/
+.ico_tab1{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -6px -108px;}
+.ico_tab2{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -34px -108px;}
+.ico_tab3{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -62px -108px;}
+.ico_tab4{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -90px -108px;}
+.ico_tab5{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -118px -108px;}
+.ico_tab6{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -146px -108px;}
+.ico_tab7{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -174px -108px;}
+.ico_tab8{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -202px -108px;}
+
+.ico_tab9{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -6px -136px;}
+.ico_tab10{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -34px -136px;}
+.ico_tab11{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -62px -136px;}
+.ico_tab12{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -90px -136px;}
+.ico_tab13{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -118px -136px;}
+.ico_tab14{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -146px -136px;}
+.ico_tab15{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -174px -136px;}
+.ico_tab16{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -202px -136px;}
+
+.ico_tab17{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -6px -164px;}
+.ico_tab18{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -34px -164px;}
+.ico_tab19{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -62px -164px;}
+.ico_tab20{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -90px -164px;}
+.ico_tab21{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -118px -164px;}
+.ico_tab22{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -146px -164px;}
+.ico_tab23{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -174px -164px;}
+.ico_tab24{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -202px -164px;}
+
+.ico_tab25{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -6px -192px;}
+.ico_tab26{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -34px -192px;}
+.ico_tab27{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -62px -192px;}
+.ico_tab28{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -90px -192px;}
+.ico_tab29{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -118px -192px;}
+.ico_tab30{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -146px -192px;}
+.ico_tab31{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -174px -192px;}
+.ico_tab32{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -202px -192px;}
+.ico_tab33{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -174px -219px;}
+.ico_tab34{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -202px -219px;}
+.ico_tab35{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -6px -247px;}
+.ico_tab36{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -34px -247px;}
+.ico_tab37{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -62px -247px;}
+.ico_tab38{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -90px -247px;}
+.ico_tab39{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -118px -247px;}
+.ico_tab40{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -146px -247px;}
+.ico_tab41{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -202px -248px;}
+.ico_tab42{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -6px -276px;}
+.ico_tab43{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -33px -276px;}
+.ico_tab44{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -173px -248px;}
+.ico_tab45{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -62px -276px;}
+.ico_tab46{display:inline-block;width:16px;height:18px;vertical-align:middle;background:url(../images/ico.png) no-repeat -90px -276px;}
+
+
+.btn1,.btn2{
+	position:relative;
+	display:inline-block;
+	padding:0 16px 0 0;
+	left:30px;
+	margin:0 12px;
+	height:27px;
+	line-height:27px;
+	font-size:12px;
+	font-weight:lighter;
+	cursor:pointer;
+	border:none;
+	color:#fff;
+	vertical-align:middle;
+	background:url(../images/btn.png) right -40px no-repeat;
+}
+.btn1,.btn1:visited,.btn1:hover{
+	color:#fff;
+}
+.btn2,.btn2:visited,.btn2:hover{
+	color:#E8E8E8;
+}
+.btn1 span,.btn2 span{
+	position:absolute;
+	left:-16px;
+	top:0;
+	height:27px;
+	width:16px;
+	background:url(../images/btn.png) 0 0 no-repeat;
+}
+.btn1:hover{background:url(../images/btn.png) right -120px no-repeat;}
+.btn1:hover span{background:url(../images/btn.png) 0 -80px no-repeat;}
+.btn1:active{background:url(../images/btn.png) right -120px no-repeat;}
+.btn1:active span{background:url(../images/btn.png) 0 -120px no-repeat;}
+
+
+.title_btn1{display:inline-block;width:66px;height:21px;line-height:21px;text-align:center;font-size:12px;color:#000;vertical-align:middle;background:url(../images/btn.png) no-repeat 0 -159px;cursor:pointer}
+.title_btn2{display:inline-block;width:95px;height:21px;line-height:21px; text-align:center;font-size:12px;color:#000;vertical-align:middle;background:url(../images/btn.png) no-repeat 0 -191px;cursor:pointer}
+.title_btn3{display:inline-block;width:138px;height:21px;line-height:21px; text-align:center;font-size:12px;color:#000;vertical-align:middle;background:url(../images/btn.png) no-repeat 0 -223px;cursor:pointer}
+
+.levelSearchBtn{cursor:pointer;}

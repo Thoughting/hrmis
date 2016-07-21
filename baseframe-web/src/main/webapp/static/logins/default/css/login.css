@@ -1,0 +1,24 @@
+/*--登录样式--*/
+.longinBg{background:#005bac url(../images/loginbg.jpg) no-repeat center -20px;font-family:Microsoft Yahei, Arial, Vrinda;}
+
+.login_logBox{display:block;margin:140px 0 0 598px;padding-top:32px;font-size:14px;width:299px;height:304px;background:url(../images/loginbox.png)}
+.login_logBox td{padding-left:26px}
+.login_logBox input.name{height:42px;line-height:42px;padding-left:40px;border:0;color:#c9c9c9;width:206px;background:url(../images/login.png) no-repeat left -96px;}
+.login_logBox input.name:focus{color:#000;background:url(../images/login.png) no-repeat left -143px;}
+.login_logBox input.pass{background:url(../images/login.png) no-repeat left -190px;}
+.login_logBox input.pass:focus{background:url(../images/login.png) no-repeat left -237px;}
+
+.login_logBox a.login{display:inline-block;margin-left:0;width:110px;height:40px;background:url(../images/login.png) no-repeat left 0;*display:inline;zoom:1; text-align:center;line-height:40px;color:#fff;font-size:14px;}
+.login_logBox a:hover.login{background:url(../images/login.png) no-repeat left -45px;}
+.login_logBox a.reset{display:inline-block;margin-left:0;width:110px;height:40px;background:url(../images/login.png) no-repeat -119px 0;*display:inline;zoom:1;text-align:center;line-height:40px;color:#3876d3;font-size:14px;}
+.login_logBox a:hover.reset{background:url(../images/login.png) no-repeat -119px -45px;}
+
+
+.login_about{ display:block;width:299px;height:20px;text-align:center;color:#F00}
+.login_newBox{ display:block;margin:0;width:299px;height:80px;}
+.login_newBox .listBox{padding:12px 20px 0 20px;}
+.login_newBox ul{list-style-type:none;padding:0;margin:0;}
+.login_newBox li{height:20px;line-height:20px;width:285px;padding-left:15px;background:url(../images/login_ico.png) no-repeat 2px 8px}
+.login_newBox li a{font-size:12px; text-decoration:none;color:#000}
+
+.logFoot{ display:inline-block;width:100%;padding-top:130px;height:60px;text-align:center;font-size:12px; color:#979696;line-height:150%;}

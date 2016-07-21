@@ -1,0 +1,49 @@
+@charset "utf-8";
+/*--- 头部样式---*/
+
+#header {position:relative;z-index:999;height:100px;background:url(../images/topbg.png)}
+#header .top{ overflow:hidden;background:url(../images/headbg.jpg) no-repeat top left}
+#header .logo{float:left;height:66px;width:297px;background:url(../images/logo.png) no-repeat }
+#header .use{float:left;height:23px;line-height:23px;width:261px;margin:27px 0 0 0;padding-left:28px;background:url(../images/use.png) no-repeat}
+#header .short_menu{ display:block; clear:both;padding:0 10px;height:32px;line-height:32px;}
+#header .short_menu span{float:right;height:23px;line-height:20px;width:261px; margin-top:7px;padding-left:28px;background:url(../images/use.png)}
+		
+#header .emenu {float:right;padding:0 12px;}
+#header .emenu .eli{float:left;text-align:center;width:48px;padding:6px 12px 6px 12px;background:url(../images/hover2.png) no-repeat 0 0}
+#header .emenu .eli a{color:#fff;font-size:12px;}
+#header .emenu li.n1{background:url(../images/hover.png) no-repeat 0 0}
+
+#header .emenu ul.level {overflow:visible;} 
+#header .emenu ul.leve2{display:none; margin:7px 0 0 -10px; position:absolute;}
+#header .emenu ul.leve2 li a{color:#3b3b3b;} 
+#header .emenu ul.level > li.n1:hover > ul, ul.leve2 > li.n1:hover > ul{ display:block; }
+#header .emenu ul.level > li.n2:hover > ul, ul.leve2 > li.n2:hover > ul{ display:block; }
+
+#header .emenu .leve2{float:left;height:400px;border:#a3b6c5 solid 1px;box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.41);text-align:left;padding:10px;overflow:auto;background:#f1faff;}
+
+#header .emenu .espan{display:inline-block;width:44px;height:35px; background:#9F9}
+#header .emenu .use1{background:url(../images/nav-ico.png) no-repeat 0 0}
+#header .emenu .use2{background:url(../images/nav-ico.png) no-repeat -44px 0}
+#header .emenu .use3{background:url(../images/nav-ico.png) no-repeat -88px 0}
+#header .emenu .use4{background:url(../images/nav-ico.png) no-repeat -132px 0}
+#header .emenu .use5{background:url(../images/nav-ico.png) no-repeat -176px 0}
+#header .emenu .use6{background:url(../images/nav-ico.png) no-repeat -220px 0}
+#header .emenu .use7{background:url(../images/nav-ico.png) no-repeat -264px 0}
+#header .emenu .use8{background:url(../images/nav-ico.png) no-repeat -308px 0}
+#header .emenu .use9{background:url(../images/nav-ico.png) no-repeat -352px 0}
+#header .emenu .use10{background:url(../images/nav-ico.png) no-repeat -396px 0}
+#header .emenu .use11{background:url(../images/nav-ico.png) no-repeat -440px 0}
+#header .emenu .use12{background:url(../images/nav-ico.png) no-repeat -484px 0}
+#header .emenu .use13{background:url(../images/nav-ico.png) no-repeat -528px 0}
+#header .emenu .use14{background:url(../images/nav-ico.png) no-repeat -572px 0}
+#header .emenu .use15{background:url(../images/nav-ico.png) no-repeat -616px 0}
+#header .emenu .use16{background:url(../images/nav-ico.png) no-repeat -660px 0}
+
+#header .short_menu span a{width:18px;height:18px; margin:0 5px;cursor:pointer}
+#header .short_menu span a.use_ico1{background:url(../images/ico.png) no-repeat -2px -47px}
+#header .short_menu span a.use_ico2{background:url(../images/ico.png) no-repeat -40px -47px}
+#header .short_menu span a.use_ico3{background:url(../images/ico.png) no-repeat -78px -47px}
+#header .short_menu span a.use_ico4{background:url(../images/ico.png) no-repeat -112px -47px}
+
+
+#foot{ bottom:0;width:100%;text-align:center;height:45px;line-height:45px;background:#eee;color:#666; clear:both}
